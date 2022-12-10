@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');     
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+}
+body{
+    background: #222222;
+}
+.form{
+    background-color: #222222;
+    width: 70%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+     margin: 50px auto;
+     
+}
+.form-head{
+ position: relative;
+    height: 50px;
+    color: white;
+    text-align: center;
+    background:#65DAFF;
+
+}
+.btn-back{
+    position: absolute;
+    background-color:white ;
+    height: 50px;
+    width: 50px;
+    top: 0; 
+    left: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 50px;
+}
+.btn-head:hover{
+    background: gray;
+}
+.btn-head:active{
+    background: black;
+     color: rgb(255, 255, 255);
+}
+.form-body{
+    /* padding: 30px;
+     */
+ color: rgb(255, 255, 255);
+ padding: 30px;
+}
+.fname, .lname{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+.gender{
+    margin-top: 30px;
+
+}
+.male-raio{
+    margin-right: 10px;
+}
+.female-radio{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.age{
+    margin-right: 10px;
+}
+.input-wrapper{
+    margin: 30px 0;
+
+}
+.comment{
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    height: 200px;
+    background: none;
+    border: 1px solid white;
+    resize: none;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 15px;
+}
+.submit{
+display: block;
+width: fit-content;
+padding: 20px 80px; margin: 30px auto;
+border: none;
+background: linear-gradient(45deg, #65DAFF, #70FFCB);
+outline: none;
+color: white;
+}

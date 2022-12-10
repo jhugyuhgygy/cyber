@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');     
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #65daff;
+}
+.section-text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+}
+body{
+    background-color: #222222;
+}
+.nav-menu {
+    line-height: 80px;
+    position: fixed;
+    background-color: #222222;
+    width: 100%;
+    height: 80px ;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+    z-index: 100;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.logo:hover{
+    color: #65daff;
+    text-shadow: 0 0 5px #65daff;   
+}
+.navigation {
+    float:right;
+}
+.nav-item {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    
+}
+.nav-item:hover{
+    color: #65daff;
+    text-shadow: 0 0 5px #65daff;
+}
+
+.site-heder {
+    height: 80vh;
+    background: url(./img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg)center/cover no-repeat;
+    position: relative;
+    }
+.heder-content {
+position:absolute ;
+left: 0;
+top: 50%;
+transform: translateY(-50%);
+width: 50%;
+
+}
+.heder-title {
+    color: #4E4E4E;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.heder-sub_title {
+    color: #4E4E4E;
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+.heder-btn { 
+    width: fit-content;
+    display: block;
+    padding: 30px 80px;
+    background: linear-gradient(45deg,#65daff,#70ffcb);
+    color: white;
+    text-decoration: none ;
+    }
+    .heder-btn:hover{
+        transform: scale(1.1);
+    }
+    .heder-btn:active{
+        background: linear-gradient(45deg, #347083, #388065);
+    }
+    .about {
+        height: 40vh;
+        text-align: center;
+    }
+
+    .about-card {
+    display: inline-block; 
+    margin-top: 100px;
+    width: 24%;
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+    }
+    .about-card-img {
+        height: 130px;
+        margin-bottom: 30px;
+    }
+    .about-title {
+        font-size: 30px;
+        color: #65daff;
+    }   
+    .games-container {
+        margin-top: 100px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+        padding: 30px 0;
+        text-align: center;
+    }
+  
+    .games-class {
+position: relative;
+    }
+    .game1 {
+   
+
+    }
+    .game-content {
+        display: inline-block;
+        width: 49%;
+        min-height: 350px;
+        vertical-align: top;
+        text-align: left;
+        padding: 0 15px;
+    }
+    .game-title {
+        margin-top: 20px;
+        font-size: 25px;
+        color: #70ffcb;
+    }
+    .game-divider {
+width: 130px;
+border: none;
+height: 3px;
+background: #70ffcb;
+margin: 20px  0;
+    }
+    .game-description {
+color: white;
+    }
+    .section-text {
+
+    }
+    .games-card_img {
+         display: inline-block; 
+        background: url(./img/csgo.jpg)left/cover no-repeat;
+         width: 48%;
+        height: 350px;
+       
+          vertical-align: top;
+    }
+    .img2 {
+        background: url(./img/dota2.jpg)left/cover no-repeat;
+  
+    }
+    .img3 {
+        background: url(./img/apex.jpg)left/cover no-repeat;
+         
+    }
+    .desk{
+        font-size: 30px;
+    font-weight: 700px;
+    color: #65daff;
+    margin-bottom: 20px;
+    }
+    .note {
+color: #65daff;
+margin-bottom: 20px;
+text-align: center;
+margin-top: 20px;
+    }
+  
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .section-text {
+        color: #fff;
+     
+    }
+    .conact-btn {
+        background: #65daff;
+        padding: 50px;
+    }
+    .contact-title {
+     display: inline-block;
+     margin-right: 300px;
+     color: #fff;
+     font-size: 40px;
+     font-weight: 700;
+    }
+    .contact-link {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background: #000000;
+        padding: 15px 50px;
+    }
+    .contact-section-container{
+        margin: 50px auto;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+        padding: 30px 0;
+        text-align: center;
+    }
+    .contact-section-container hr{
+        width: 300px;
+border: none;
+height: 3px;
+background: #ffffff;
+margin: 30px   auto;
+
+    }
